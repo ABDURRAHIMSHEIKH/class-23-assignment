@@ -1,184 +1,251 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,400&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Note-1</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
-        <div class="container">
-            <div class="header-logo">
-                <img src="https://i.ibb.co/CnT9VZ8/ezgif-3-db99e0288d75.png" alt="">
-            </div>
-            <div class="header-menu">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Office</a></li>
-                    <li><a href="#">Support</a></li>
-                    <li><a href="#">Helf</a></li>
-                    <li><a href="#">Team</a></li>
-                    <li><a href="#">Policy</a></li>
-                </ul>
-            </div>
+    <!-- header menu start -->
+    <header class="pb-5">
+
+        <!-- navbar section start  -->
+        <div class="nav-menu">
+            <nav class="navbar navbar-expand-lg navbar-light  d-flex">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="/image/logo.png" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+                    <div class="d-flex fw-bold fs-5">
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent ">
+                            <ul class="navbar-nav  mb-2 mb-lg-0">
+                                <li class="nav-item me-4">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item me-3">
+                                    <a class="nav-link" href="#">Link</a>
+                                </li>
+                                <li class="nav-item dropdown me-4">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                             Dropdown
+                             </a>
+                                    <ul class="dropdown-menu me-4" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+
+                            <form class="d-flex">
+
+                                <button class="btn btn-outline-success border-0 text-danger" type="search"><i class="fa-solid fa-magnifying-glass"></i></button>
+                            </form>
+
+                        </div>
+                    </div>
+
+                </div>
+            </nav>
         </div>
+        <!-- navbar section end  -->
+
+        <!-- hero section start  -->
+        <section>
+            <div class="container">
+                <div class="row ">
+                    <div class="col-6 mt-5">
+                        <div class="hero">
+                            <h1 class="text-light mt-5 mb-4">GYM AND FITNESS</h1>
+                            <h3>Landing Page 2045</h3>
+                            <p class="text-light mt-4">
+                                It is a long established fact that a reader will be distracted by the readable content of a page when looking at it's layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here,
+                                content here', making it</p>
+                            <button class="btn btn-outline-danger shadow-lg fw-bold btn-lg mt-5 ">Read More</button>
+                        </div>
+                    </div>
+                    <div class="col-6 mt-5">
+                        <img class="mt-5 img-fluid" src="./image/toy_img.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- hero section end -->
+
     </header>
-    <!-- <section>
-    <div class="mainbar">
-            <div class="sub-main">
-                <div class="top-section">
-                    <div class="main-item">
-                        <h4>Center</h4>
-                    </div>
-                </div>
-                <div class="top-section top-section2">
-                    <div class="main-item">
-                        <h4>Center</h4>
-                    </div>
-                </div>
-                <div class="top-section top-section3">
-                    <div class="main-item">
-                        <h4>Center</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="middle-section">
-                <div class="middle-contant">
-                    <div class="middle-item">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed nihil praesentium quia, sint deserunt accusantium voluptatibus, esse voluptatum corrupti eum veritatis repudiandae facilis alias, molestias eveniet perferendis enim
-                            nesciunt minus.</p>
-                    </div>
-                </div>
-                <div class="middle-contant2">
-                    <div class="middle-item">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed nihil praesentium quia, sint deserunt accusantium voluptatibus, esse voluptatum corrupti eum veritatis repudiandae facilis alias, molestias eveniet perferendis enim
-                            nesciunt minus.</p>
-                    </div>
-                </div>
-                <div class="middle-contan3">
-                    <div class="middle-item">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed nihil praesentium quia, sint deserunt accusantium voluptatibus, esse voluptatum corrupti eum veritatis repudiandae facilis alias, molestias eveniet perferendis enim
-                            nesciunt minus.</p>
-                    </div>
-                </div>
-            </div>
+    <!-- header menu end -->
 
 
-        </div>
-
-
-
-
-    <div class="sidebar">
-        <h3>Right Sidebar</h3>
-        <img src="" alt="">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore laboriosam ullam quasi. Voluptates dolores eius blanditiis adipisci ratione vel, aperiam magnam eaque similique numquam ea?</p>
-    </div>
-    </section>  -->
-
-    <section class="main-section">
-        <div class="section-container">
-            <div class="box-line1 ">
-                <h4>CENTER</h4>
-            </div>
-            <div class="box-line1 box1">
-                <h4>CENTER</h4>
-            </div>
-            <div class="box-line1 box2">
-                <h4>CENTER</h4>
-            </div>
-            <div class="box-line1 box3">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos necessitatibus recusandae, cumque pariatur voluptatum repudiandae ducimus rerum, nam cum distinctio numquam dicta esse amet,</p>
-            </div>
-            <div class="box-line1 box4">
-                <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio corrupti quos animi cupiditate dolorum, incidunt minus corporis est, illum accusamus nisi placeat inventore, tenetur atque?</p>
-            </div>
-            <div class="box-line1 box5">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi nulla natus in obcaecati quos laborum voluptatem corporis quae labore optio, vitae expedita sequi provident officia.</p>
-            </div>
-
-
-            <div class="box-line1 box6">
-                <h4>Flex</h4>
-                <h4>Flex</h4>
-                <h4>Flex</h4>
-                <h4>Flex</h4>
-
-            </div>
-            <div class="box-line1 box7">
-                <h4>Flex</h4>
-                <h4>Flex</h4>
-                <h4>Flex</h4>
-                <h4>Flex</h4>
-                <h4>Flex</h4>
-                <h4>Flex</h4>
-                <h4>Flex</h4>
-                <h4>Flex</h4>
-                <h4>Flex</h4>
-
-            </div>
-            <div class="box-line1 box8">
-                <div class="box-item1">
-                    <h4>Flex</h4>
-                </div>
-                <div class="box-item2">
-                    <h4>Flex</h4>
-                </div>
-                <div class="box-item3">
-                    <h4>Flex</h4>
-                </div>
-
-
-
-
-            </div>
-
-
-
-
-
-
-
-
-
-
-        </div>
-
-        <div class="sidebar">
-            <h3>Right Sidebar</h3>
-            <img src="https://i.ibb.co/CnT9VZ8/ezgif-3-db99e0288d75.png" alt="">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat magni necessitatibus deserunt esse quod, quaerat voluptatum quibusdam cumque voluptatibus ex placeat tempora ea cum rerum.</p>
-        </div>
-
-    </section>
-
-    <!-- footer section start -->
-    <footer>
+    <!-- service section start -->
+    <section class="my-5 service-section">
         <div class="container">
-
-            <div class="header-menu">
-                <ul>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Twitter</a></li>
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="#">Linked In</a></li>
-
-                </ul>
+            <div class="row">
+                <div class="col text-center">
+                    <h1>Our Features Classes</h1>
+                    <h5 class="mb-5">CHECKOUT OUR FITNESS CLASSES</h5>
+                </div>
             </div>
+            <div class="row my-5">
+
+                <div class="col-4">
+                    <div class="service-item text-center">
+                        <div class="card shadow-lg rounded border-0 p-5">
+                            <div class="s-image my-4">
+                                <img src="./image/icon1.png" alt="">
+                            </div>
+                            <h4>HEAVY WEIGHT <br> CLASSES
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="service-item text-center">
+                        <div class="card shadow-lg rounded border-0 p-5">
+                            <div class="s-image my-4">
+                                <img src="./image/icon2.png" alt="">
+                            </div>
+                            <h4>BODY BUILDING <br> CLASSES
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="service-item text-center">
+                        <div class="card shadow-lg rounded border-0 p-5">
+                            <div class="s-image my-4">
+                                <img src="./image/icon3.png" alt="">
+                            </div>
+                            <h4>WEIGHT LOSS <br> CLASSES
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="service-btn text-center">
+                        <button class="btn btn-lg btn-outline-secondary fw-bold my-5 shadow-lg">Read More..</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- service section end -->
+
+    <!-- banner section start -->
+    <section class="banner-section my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col text-light">
+                    <h1 class="text-center">FITNESS CLASSES THIS SUMMER. PAY NOW AND GET 25% DISCOUNT</h1>
+                    <h5 class="pb-5 pt-4 text-center lh-lg">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor a</h5>
+                    <div class="banner-btn text-center">
+                        <button class="btn btn-lg btn-outline-danger shadow-lg fw-bold mt-5">Read More..</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- banner section end -->
+
+
+    <!-- login form section start -->
+    <section class="my-5">
+        <div class="container ">
+            <div class="row">
+                <div class="col text-center my-5">
+                    <h1 class="fw-bold">Rqueste a call back</h1>
+                    <p class="my-3 lead">There are many variations of passages of Lorem Ipsum available, but the majority have suffered a</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-5">
+                    <div class="contact-form bg-danger px-5 py-4">
+                        <form action="#">
+                            <input type="text" class="form-control my-4 form-control-lg  bg-transparent" placeholder="Name">
+                            <input type="number" class="form-control  my-4  bg-transparent form-control-lg" placeholder="Phone">
+                            <input type="email" class="form-control my-4  bg-transparent form-control-lg" placeholder="E-mail">
+                            <textarea class="form-control bg-transparent form-control-lg" name="" id="" cols="30" rows="2" placeholder="Massege"></textarea>
+
+                        </form>
+                        <div class="form-btn  text-center my-4">
+
+                            <button class="btn btn-lg btn-outline-light shadow-lg fw-bold mt-3 ">Read More</button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-7">
+                    <img class="img-fluid" src="./image/img.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- login form section end -->
+
+
+    <!-- testimonial section start -->
+    <section class="bg-dark text-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-8 text-center">
+                    <h1>Free Multipurpose</h1>
+                    <h1 class="mb-3">Responsive Landing Page 2045</h1>
+                    <p class="py-4">It is a long established fact that a reader will be distracted by the readable content of a page when looking at it's layout. The point of using Lorem Ipsum is</p>
+                    <div class="test-mail">
+                        <form action="#">
+                            <input type="email" class="form-control form-control-lg" placeholder="Enter your email">
+                            <button class=" text-light">SUBSCRIBE</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-2"></div>
+            </div>
+        </div>
+    </section>
+    <!-- testimonial section end -->
+
+
+    <footer class="bg-dark border-top-1 py-3">
+        <div class="container text-center text-light">
+            <p>&copy;copyright 2022.All Reserved by Abdur Rahim Sheikh</p>
         </div>
     </footer>
-    <!-- footer section end -->
 
 
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
 </body>
 
 </html>
